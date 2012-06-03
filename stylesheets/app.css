@@ -8,16 +8,58 @@
 :: Page Name 1
 :: Page Name 2
 */
+
 h1{
 	font-family: 'Oswald', sans-serif;
+	color: #FFE433;
 }
+
 h2{
 	font-family: 'Oswald', sans-serif;
+	color: #FFE433;
 }
 p{
 	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	font-size: 110%;
 }
 
+body{
+	background-color: #00526B;
+}
+
+ul{
+
+}
+li{
+	margin-left: 3em;
+	display:block;
+	list-style : none;
+	width: 13em;
+	border-bottom: 1px solid #A1A1A1;
+}
+strong{
+	font-size: 150%;
+}
+.grey{
+	color: #A1A1A1;
+}
+
+.lightblue{
+	color: #238DAF;
+}
+
+.navyblue{
+	color: #00526B;
+}
+
+.yellow{
+	color: #FFE433;
+}
+
+.white{
+	color: #FFFFFF;
+}
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */

@@ -35,16 +35,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 655,
-				"line_ending": "Unix",
-				"name": "html>head>title+body"
+				"buffer_size": 1879,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/std.css",
+			"file": "stylesheets/app.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 721,
 				"line_ending": "Unix"
 			}
 		}
@@ -117,6 +116,9 @@
 	},
 	"file_history":
 	[
+		"/home/calvin/workspace/savethedate/stylesheets/std.css",
+		"/home/calvin/workspace/savethedate/css/std.css",
+		"/home/calvin/workspace/savethedate/index.html",
 		"/home/calvin/workspace/savethedate/css/sv",
 		"/home/calvin/workspace/wedding/app/controllers/rsvp_controller.rb",
 		"/home/calvin/workspace/wedding/app/views/rsvps/show.html.haml",
@@ -241,10 +243,7 @@
 		"/home/calvin/workspace/untitledhosting/spec/support/mongoid.rb",
 		"/home/calvin/koans/about_arrays.rb",
 		"/home/calvin/koans/about_proxy_object_project.rb",
-		"/home/calvin/koans/about_class_methods.rb",
-		"/home/calvin/koans/about_scope.rb",
-		"/home/calvin/koans/about_modules.rb",
-		"/home/calvin/koans/about_inheritance.rb"
+		"/home/calvin/koans/about_class_methods.rb"
 	],
 	"find":
 	{
@@ -318,43 +317,42 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 655,
+						"buffer_size": 1879,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								158,
-								158
+								706,
+								706
 							]
 						],
 						"settings":
 						{
-							"auto_name": "html>head>title+body",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 30.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/std.css",
+					"file": "stylesheets/app.css",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								393,
+								393
 							]
 						],
 						"settings":
