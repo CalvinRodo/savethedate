@@ -1,0 +1,583 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"background",
+				"background	background-image: url"
+			],
+			[
+				"p",
+				"p	position: fixed"
+			],
+			[
+				"File",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"s",
+				"slt	stylesheet_link_tag"
+			],
+			[
+				"do",
+				"do"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 655,
+				"line_ending": "Unix",
+				"name": "html>head>title+body"
+			}
+		},
+		{
+			"file": "css/std.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"BeautifyRuby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"rails",
+				"SublimeRailsNav: List controllers"
+			],
+			[
+				"Snippetform_for",
+				"Snippet: form_for"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/calvin/workspace/savethedate/css/sv",
+		"/home/calvin/workspace/wedding/app/controllers/rsvp_controller.rb",
+		"/home/calvin/workspace/wedding/app/views/rsvps/show.html.haml",
+		"/home/calvin/workspace/wedding/Gemfile",
+		"/home/calvin/workspace/wedding/app/views/weddingparty/index.html.haml",
+		"/home/calvin/workspace/wedding/db/seeds.rb",
+		"/home/calvin/workspace/wedding/app/models/rsvp.rb",
+		"/home/calvin/workspace/wedding/app/models/song.rb",
+		"/home/calvin/workspace/wedding/config/routes.rb",
+		"/home/calvin/Desktop/justification_of_art",
+		"/home/calvin/workspace/wedding/app/views/wedding/directions.html.erb",
+		"/home/calvin/workspace/wedding/app/views/story/index.html.haml",
+		"/home/calvin/workspace/wedding/app/views/rsvp/update.html.haml",
+		"/home/calvin/workspace/wedding/app/views/layouts/application.html.haml",
+		"/home/calvin/workspace/wedding/app/views/rsvps/index.html.haml",
+		"/home/calvin/workspace/wedding/app/assets/stylesheets/application.css",
+		"/home/calvin/workspace/wedding/app/views/weddingparty/Groom.html.haml",
+		"/home/calvin/workspace/wedding/app/views/weddingparty/Bride.html.haml",
+		"/home/calvin/workspace/wedding/app/controllers/weddingparty_controller.rb",
+		"/home/calvin/workspace/wedding/app/assets/javascripts/rsvps.js.coffee",
+		"/home/calvin/workspace/wedding/app/controllers/rsvps_controller.rb",
+		"/home/calvin/workspace/wedding/app/assets/javascripts/menu.js.coffee",
+		"/home/calvin/workspace/wedding/app/views/rsvps/_form.html.haml",
+		"/home/calvin/workspace/wedding/config/environments/development.rb",
+		"/home/calvin/workspace/wedding/app/assets/javascripts/foundation/app.js",
+		"/home/calvin/workspace/wedding/app/assets/javascripts/app.js",
+		"/home/calvin/workspace/wedding/app/controllers/songs_controller.rb",
+		"/home/calvin/help",
+		"/home/calvin/workspace/wedding/app/assets/javascripts/application.js",
+		"/home/calvin/workspace/wedding/app/assets/javascripts/songs.js.coffee",
+		"/home/calvin/workspace/wedding/test/functional/rsvps_controller_test.rb",
+		"/home/calvin/workspace/wedding/Marshal.4.8.Z",
+		"/home/calvin/workspace/wedding/app/views/home/index.html.haml",
+		"/home/calvin/workspace/wedding/app/views/contact/Us.html.haml",
+		"/home/calvin/workspace/wedding/app/assets/stylesheets/weddingparty.css.scss",
+		"/home/calvin/workspace/wedding/Gemfile.lock",
+		"/home/calvin/koans/about_control_statements.rb",
+		"/home/calvin/workspace/wedding/app/views/admin/setup.html.haml",
+		"/home/calvin/workspace/wedding/app/controllers/admin_controller.rb",
+		"/home/calvin/koans/about_message_passing.rb",
+		"/home/calvin/koans/about_to_str.rb",
+		"/home/calvin/workspace/wedding/app/assets/stylesheets/home.css.scss",
+		"/home/calvin/workspace/wedding/app/views/shared/_songlist.html.haml",
+		"/home/calvin/workspace/wedding/app/views/rsvps/new.html.haml",
+		"/home/calvin/workspace/wedding/app/views/rsvps/edit.html.haml",
+		"/home/calvin/workspace/wedding/app/views/rsvps/_form.html.erb",
+		"/home/calvin/workspace/wedding/app/views/songs/index.html.haml",
+		"/home/calvin/workspace/wedding/app/views/shared/_songlist.html.erb",
+		"/home/calvin/workspace/wedding/app/views/layouts/application.html.erb",
+		"/home/calvin/workspace/wedding/public/peculiar.html",
+		"/home/calvin/workspace/wedding/app/assets/stylesheets/peculiar.css",
+		"/home/calvin/workspace/wedding/public/robots.txt",
+		"/home/calvin/workspace/wedding/app/views/home/index.html.erb",
+		"/home/calvin/workspace/wedding/app/views/songs/index.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/home/index.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/layouts/application.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/assets/javascripts/site.js.coffee",
+		"/home/calvin/workspace/untitledhosting/app/assets/javascripts/application.js",
+		"/home/calvin/workspace/untitledhosting/app/assets/javascripts/galleries/slideshow.js.coffee",
+		"/home/calvin/workspace/wedding/app/views/wedding/location.html.erb",
+		"/home/calvin/workspace/wedding/config/application.rb",
+		"/home/calvin/workspace/wedding/app/models/user.rb",
+		"/home/calvin/workspace/wedding/app/views/songs/_form.html.erb",
+		"/home/calvin/workspace/wedding/app/views/rsvp/create.html.erb",
+		"/home/calvin/workspace/wedding/app/views/wedding/index.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/shared/_navigation.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/shared/_sidemenu.html.erb",
+		"/home/calvin/workspace/wedding/public/index.html",
+		"/home/calvin/workspace/untitledhosting/app/views/users/show.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/shared/accounts/_list.erb",
+		"/home/calvin/workspace/untitledhosting/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/calvin/workspace/untitledhosting/config/routes.rb",
+		"/home/calvin/workspace/untitledhosting/config/initializers/carrierwave.rb",
+		"/home/calvin/workspace/untitledhosting/app/views/shared/menus/_loggedinside.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/shared/menus/_notloggedinside.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/account/new.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/account/delete.html.erb",
+		"/home/calvin/workspace/untitledhosting/Gemfile",
+		"/home/calvin/workspace/untitledhosting/app/models/css.rb",
+		"/home/calvin/workspace/untitledhosting/app/views/site/View.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/assets/stylesheets/site.css.scss",
+		"/home/calvin/workspace/uhosting/app/assets/javascripts/galleries/slideshow.js.coffee",
+		"/home/calvin/workspace/uhosting/app/assets/javascripts/application.js",
+		"/home/calvin/workspace/uhosting/config/application.rb",
+		"/home/calvin/workspace/uhostingphp/app/config/bootstrap.php",
+		"/home/calvin/workspace/uhostingphp/app/controllers/UsersController.php",
+		"/home/calvin/workspace/uhostingphp/app/models/Users.php",
+		"/home/calvin/workspace/uhostingphp/app/views/users/index.html.php",
+		"/home/calvin/workspace/uhostingphp/app/views/users/register.html.php",
+		"/home/calvin/workspace/uhostingphp/app/views/users/add.html.php",
+		"/home/calvin/workspace/uhostingphp/libraries/lithium/data/source/MongoDb.php",
+		"/home/calvin/workspace/uhostingphp/app/config/bootstrap/connections.php",
+		"/home/calvin/workspace/uhostingphp/libraries/lithium/action/Response.php",
+		"/home/calvin/workspace/uhostingphp/web.config",
+		"/home/calvin/workspace/uhostingphp/app/webroot/test.php",
+		"/home/calvin/workspace/untitledhosting/app/models/gallery.rb",
+		"/home/calvin/workspace/untitledhosting/app/models/file.rb",
+		"/home/calvin/workspace/untitledhosting/app/assets/stylesheets/application.css",
+		"/home/calvin/workspace/untitledhosting/app/views/us/contact.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/controllers/account_controller.rb",
+		"/home/calvin/workspace/untitledhosting/app/views/shared/_userinfo.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/us/about.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/assets/stylesheets/users.css.scss",
+		"/home/calvin/workspace/untitledhosting/app/views/account/create.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/assets/stylesheets/account.css.scss",
+		"/home/calvin/workspace/untitledhosting/app/models/account.rb",
+		"/home/calvin/workspace/untitledhosting/app/models/user.rb",
+		"/home/calvin/workspace/untitledhosting/app/controllers/users_controller.rb",
+		"/home/calvin/workspace/untitledhosting/app/controllers/home_controller.rb",
+		"/home/calvin/workspace/untitledhosting/app/controllers/application_controller.rb",
+		"/home/calvin/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/calvin/workspace/untitledhosting/config/initializers/devise.rb",
+		"/home/calvin/workspace/untitledhosting/config/application.rb",
+		"/home/calvin/workspace/untitledhosting/db/seeds.rb",
+		"/home/calvin/workspace/untitledhosting/app/views/devise/registrations/new.html.erb",
+		"/home/calvin/workspace/untitledhosting/app/views/devise/registrations/edit.html.erb",
+		"/home/calvin/workspace/untitledhosting/spec/spec_helper.rb",
+		"/home/calvin/workspace/untitledhosting/config/environments/production.rb",
+		"/home/calvin/workspace/untitledhosting/config/environments/development.rb",
+		"/home/calvin/workspace/untitledhosting/features/support/env.rb",
+		"/home/calvin/workspace/untitledhosting/spec/factory.rb",
+		"/home/calvin/workspace/untitledhosting/spec/support/mongoid.rb",
+		"/home/calvin/koans/about_arrays.rb",
+		"/home/calvin/koans/about_proxy_object_project.rb",
+		"/home/calvin/koans/about_class_methods.rb",
+		"/home/calvin/koans/about_scope.rb",
+		"/home/calvin/koans/about_modules.rb",
+		"/home/calvin/koans/about_inheritance.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"text",
+			"new",
+			"Count",
+			"label",
+			") |",
+			"main_invite",
+			"\"></div>",
+			"%>",
+			"<li>",
+			"</li>",
+			"jQuery",
+			"$",
+			"jQuery",
+			"%;",
+			"\")) %>')",
+			"\" %>",
+			"() ",
+			">",
+			") ",
+			"active",
+			"});",
+			"Mongo",
+			">",
+			";",
+			") %>"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"val",
+			"count",
+			"",
+			"%li",
+			"",
+			"$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"auto_name": "html>head>title+body",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/std.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"html.haml",
+				"app/views/weddingparty/index.html.haml"
+			],
+			[
+				"show",
+				"app/views/rsvps/show.html.haml"
+			],
+			[
+				"",
+				"app/views/rsvp/confirm.html.haml"
+			],
+			[
+				"rsv",
+				"app/controllers/rsvp_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"song",
+				"app/models/song.rb"
+			],
+			[
+				"rsvp",
+				"app/models/rsvp.rb"
+			],
+			[
+				"seedsrb",
+				"db/seeds.rb"
+			],
+			[
+				"rsvps",
+				"app/controllers/rsvps_controller.rb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"index",
+				"app/views/weddingparty/index.html.haml"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"form",
+				"app/views/rsvps/_form.html.haml"
+			],
+			[
+				"seeds.rb",
+				"db/seeds.rb"
+			],
+			[
+				"rsvps.js",
+				"app/assets/javascripts/rsvps.js.coffee"
+			],
+			[
+				"development.rb",
+				"config/environments/development.rb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"rsvp.js.coffee",
+				"app/assets/javascripts/rsvps.js.coffee"
+			],
+			[
+				"appli",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"application.html.haml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"rsvpcon",
+				"test/functional/rsvps_controller_test.rb"
+			],
+			[
+				"_fom",
+				"app/views/rsvps/_form.html.haml"
+			],
+			[
+				"coffee",
+				"app/assets/javascripts/songs.js.coffee"
+			],
+			[
+				"songs",
+				"app/controllers/songs_controller.rb"
+			],
+			[
+				"bride",
+				"app/views/weddingparty/Bride.html.haml"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"groom",
+				"app/views/weddingparty/Groom.html.haml"
+			],
+			[
+				"story",
+				"app/views/story/index.html.haml"
+			],
+			[
+				"us",
+				"app/views/contact/Us.html.haml"
+			],
+			[
+				"applicat",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"application.haml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"rsvp_controller",
+				"app/controllers/rsvps_controller.rb"
+			],
+			[
+				"_songs",
+				"app/views/shared/_songlist.html.haml"
+			],
+			[
+				"index.",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"home.css.scss",
+				"app/assets/stylesheets/home.css.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": false
+}
