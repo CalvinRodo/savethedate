@@ -10,18 +10,35 @@
 */
 
 h1{
-	font-family: 'Oswald', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Oleo Script', cursive;
 	color: #FFE433;
 }
 
 h2{
-	font-family: 'Oswald', sans-serif;
-	color: #FFE433;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Oleo Script', cursive;	
 }
 p{
 	font-family: 'Oswald', sans-serif;
 	color: #FFFFFF;
 	font-size: 110%;
+}
+
+.save{
+	color: white;
+	text-align: center;
+	background-color: #238DAF; 
+	border-radius: 50%;
+	width: 15em;
+	height: 15em;
+  /* width and height can be anything, as long as they're equal */
+}
+
+
+div.save h2{
+	color: white;
+	top-mar
 }
 
 body{
@@ -40,25 +57,6 @@ li{
 }
 strong{
 	font-size: 150%;
-}
-.grey{
-	color: #A1A1A1;
-}
-
-.lightblue{
-	color: #238DAF;
-}
-
-.navyblue{
-	color: #00526B;
-}
-
-.yellow{
-	color: #FFE433;
-}
-
-.white{
-	color: #FFFFFF;
 }
 /* -----------------------------------------
    Shared Styles
