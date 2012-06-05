@@ -57,7 +57,104 @@ a img {
   border: none;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
+h1 {
+  font-family: "Oleo Script", cursive;
+  font-size: 3em;
+}
+
+/* line 36, ../sass/screen.scss */
+h2 {
+  font-family: "Oleo Script", cursive;
+  font-size: 2em;
+}
+
+/* line 41, ../sass/screen.scss */
+.header {
+  text-align: center;
+  z-index: 1;
+  background-color: #ffe433;
+  height: 12em;
+}
+/* line 42, ../sass/screen.scss */
+.header .h1 {
+  display: block;
+}
+
+/* line 51, ../sass/screen.scss */
+.mainbody {
+  height: 100%;
+  z-index: 1;
+  background-color: #a1a1a1;
+  background-width: 100%;
+}
+
+/* line 58, ../sass/screen.scss */
+.us {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin-top: 8em;
+  margin-left: 5%;
+}
+
+/* line 66, ../sass/screen.scss */
+.venue {
+  float: right;
+  display: inline-block;
+  width: 40%;
+  margin-top: 8em;
+  margin-right: 5%;
+}
+/* line 73, ../sass/screen.scss */
+.venue ul li {
+  list-style-type: none;
+}
+
+/* line 78, ../sass/screen.scss */
+.save {
+  position: absolute;
+  left: 50%;
+  margin-left: -7em;
+  margin-top: -7em;
+  width: 14em;
+  height: 14em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #00526b;
+  z-index: 1;
+}
+/* line 85, ../sass/screen.scss */
+.save .innercircle {
+  position: relative;
+  top: 0.5em;
+  left: 0.5em;
+  width: 13em;
+  height: 13em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #238daf;
+  -webkit-box-shadow: grey 1px 1px 3px;
+  -moz-box-shadow: grey 1px 1px 3px;
+  box-shadow: grey 1px 1px 3px;
+}
+
+/* line 95, ../sass/screen.scss */
+.savetext {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -6em;
+  margin-top: 4em;
+}
+
+/* line 106, ../sass/screen.scss */
 body.bp {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -376,160 +473,4 @@ body.bp .added {
 body.bp .removed {
   background: #990000;
   color: white;
-}
-
-/* line 18, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp label {
-  font-weight: bold;
-}
-/* line 19, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp fieldset {
-  padding: 1.4em;
-  margin: 0 0 1.5em 0;
-}
-/* line 20, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp legend {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-/* line 26, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp input.text, form.bp input.title, form.bp input[type=email], form.bp input[type=text], form.bp input[type=password] {
-  margin: 0.5em 0;
-  background-color: white;
-  padding: 5px;
-}
-/* line 27, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp input.title {
-  font-size: 1.5em;
-}
-/* line 29, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp textarea {
-  margin: 0.5em 0;
-  padding: 5px;
-}
-/* line 30, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp select {
-  margin: 0.5em 0;
-}
-/* line 55, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp fieldset {
-  border: 1px solid #cccccc;
-}
-/* line 58, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp input.text, form.bp input.title, form.bp input[type=email], form.bp input[type=text], form.bp input[type=password],
-form.bp textarea {
-  background-color: #fff;
-  border: 1px solid #bbbbbb;
-}
-/* line 61, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp input.text:focus, form.bp input.title:focus, form.bp input[type=email]:focus, form.bp input[type=text]:focus, form.bp input[type=password]:focus,
-form.bp textarea:focus {
-  border-color: #666666;
-}
-/* line 65, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp select {
-  background-color: #fff;
-  border-width: 1px;
-  border-style: solid;
-}
-/* line 44, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp input.text, form.bp input.title, form.bp input[type=email], form.bp input[type=text], form.bp input[type=password] {
-  width: 300px;
-}
-/* line 46, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp textarea {
-  width: 390px;
-  height: 250px;
-}
-/* line 39, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_scaffolding.scss */
-form.bp .box {
-  padding: 1.5em;
-  margin-bottom: 1.5em;
-  background: #e5ecf9;
-}
-/* line 42, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_scaffolding.scss */
-form.bp .border {
-  padding-right: 4px;
-  margin-right: 5px;
-  border-right: 1px solid #dddddd;
-}
-/* line 45, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_scaffolding.scss */
-form.bp .colborder {
-  padding-right: 24px;
-  margin-right: 25px;
-  border-right: 1px solid #dddddd;
-}
-/* line 47, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_scaffolding.scss */
-form.bp hr {
-  background: #dddddd;
-  color: #dddddd;
-  clear: both;
-  float: none;
-  width: 100%;
-  height: 0.1em;
-  margin: 0 0 1.45em;
-  border: none;
-}
-/* line 49, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_scaffolding.scss */
-form.bp hr.space {
-  background: #dddddd;
-  color: #dddddd;
-  clear: both;
-  float: none;
-  width: 100%;
-  height: 0.1em;
-  margin: 0 0 1.45em;
-  border: none;
-  background: white;
-  color: white;
-  visibility: hidden;
-}
-/* line 51, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_scaffolding.scss */
-form.bp form.inline {
-  line-height: 3;
-}
-/* line 6, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-form.bp form.inline p {
-  margin-bottom: 0;
-}
-
-/* line 36, ../sass/screen.scss */
-body.two-col #container {
-  width: 950px;
-  margin: 0 auto;
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 38, ../sass/screen.scss */
-body.two-col #header, body.two-col #footer {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 950px;
-}
-/* line 147, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.two-col #header, * html body.two-col #footer {
-  overflow-x: hidden;
-}
-/* line 40, ../sass/screen.scss */
-body.two-col #sidebar {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 310px;
-}
-/* line 147, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.two-col #sidebar {
-  overflow-x: hidden;
-}
-/* line 44, ../sass/screen.scss */
-body.two-col #content {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 630px;
-}
-/* line 147, ../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.two-col #content {
-  overflow-x: hidden;
 }

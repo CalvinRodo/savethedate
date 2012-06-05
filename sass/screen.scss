@@ -14,6 +14,20 @@ $white: #FFFFFF;
 //font
 $oleo: 'Oleo Script', cursive;
 
+@mixin position-center($width){
+	position: absolute;
+	left: 50%;
+	margin-left: -$width;
+}
+
+@mixin circle($radius)
+{
+	width: $radius;
+	height: $radius;
+	@include border-radius( 50% );
+
+}
+
 h1{
 	font-family: $oleo;
 	font-size: 3em;
@@ -38,20 +52,28 @@ h2{
 	height: 100%;
 	z-index: 1;
 	background-color: $grey;
+	background-width: 100%;
 }
 
-@mixin position-center($width){
-	position: absolute;
-	left: 50%;
-	margin-left: -$width;
+.us{
+	float: left;
+	display: inline-block;
+	width: 40%;
+	margin-top: 8em;
+	margin-left: 5%;
 }
 
-@mixin circle($radius)
-{
-	width: $radius;
-	height: $radius;
-	@include border-radius( 50% );
-
+.venue{
+	float: right;
+	display: inline-block;
+	width: 40%;
+	margin-top: 8em;
+	margin-right: 5%;
+	ul{
+		li{
+			list-style-type: none;
+		}
+	}
 }
 .save{
 	@include position-center(7em);
