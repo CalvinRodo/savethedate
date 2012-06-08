@@ -47,24 +47,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2155,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/old.scss",
-			"settings":
-			{
-				"buffer_size": 1659,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
+				"buffer_size": 2263,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -74,14 +58,26 @@
 				"buffer_size": 21,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 1947,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
 	{
-		"height": 180.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"enabl",
 				"Package Control: Enable Package"
@@ -93,10 +89,6 @@
 			[
 				"",
 				"BeautifyRuby"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"instal",
@@ -127,7 +119,7 @@
 				"Snippet: form_for"
 			]
 		],
-		"width": 449.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -144,6 +136,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/calvin/Documents/GitHub/savethedate/sass/old.scss",
 		"/home/calvin/workspace/savethedate/.sass-cache/21225c0a81ea17895c75aeba11cf157e225a22e6/_grid.scssc",
 		"/home/calvin/workspace/savethedate/stylesheets/app.css",
 		"/home/calvin/workspace/savethedate/stylesheets/std.css",
@@ -270,8 +263,7 @@
 		"/home/calvin/workspace/untitledhosting/config/environments/development.rb",
 		"/home/calvin/workspace/untitledhosting/features/support/env.rb",
 		"/home/calvin/workspace/untitledhosting/spec/factory.rb",
-		"/home/calvin/workspace/untitledhosting/spec/support/mongoid.rb",
-		"/home/calvin/koans/about_arrays.rb"
+		"/home/calvin/workspace/untitledhosting/spec/support/mongoid.rb"
 	],
 	"find":
 	{
@@ -289,6 +281,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%;",
 			"5em",
 			"text",
 			"new",
@@ -338,7 +331,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -346,15 +339,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2155,
+						"buffer_size": 2263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								761,
-								761
+								0,
+								0
 							]
 						],
 						"settings":
@@ -370,59 +363,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "sass/old.scss",
-					"settings":
-					{
-						"buffer_size": 1659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1659
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"default_dir": "/home/calvin/workspace/savethedate",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": ".gitignore",
 					"settings":
 					{
@@ -443,6 +383,41 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/screen.scss",
+					"settings":
+					{
+						"buffer_size": 1947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							],
+							[
+								1040,
+								1040
+							],
+							[
+								1044,
+								1044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
