@@ -3,7 +3,9 @@
 @import "blueprint";
 @import "blueprint/scaffolding";
 @import "compass/css3"; 
+@import "compass/css3/images"; 
 @import "compass/typography";
+@import "compass/css3/box-shadow";
 
 //colors
 $grey: #A1A1A1;
@@ -44,14 +46,15 @@ h2{
 	}
 	text-align: center;
 	z-index: 1;
-	background-color: $yellow;
+	@include background-image(linear-gradient( $navyblue, adjust-lightness($navyblue, 15%) 50%, $navyblue));
+	background-color: $navyblue;
 	height: 12em;
 }
 
 .mainbody{
 	height: 100%;
 	z-index: 1;
-	background-color: $grey;
+	background-image: url("../images/wp2.jpg");
 	background-width: 100%;
 }
 
@@ -81,15 +84,15 @@ h2{
 	margin-top:  -7em;
 	@include circle(14em);
 
-	background-color: $navyblue;
+	background-color: $white;
+	@include single-box-shadow();
 	z-index: 1;
 	.innercircle{
 		position: relative;
 		top: 0.5em;
 		left: 0.5em;
 		@include circle(13em);
-		background-color: $lightblue;
-		@include box-shadow( grey 1px 1px 3px );
+		@include background-image( linear-gradient(top, adjust-lightness($lightblue, 25%), $lightblue ));
 	}
 }
 
