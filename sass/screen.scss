@@ -33,15 +33,22 @@ $ubuntu: 'Ubuntu', sans-serif;
 
 p{
 	font-family: $ubuntu;
+	font-size: 1em;
 }
+
 h1{
 	font-family: $oleo;
-	font-size: 3em;
+	font-size: 4em;
 }
 
 h2{
 	font-family: $oleo;
 	font-size: 2em;
+	// line-height: 1.25;
+}
+
+a{
+	text-decoration: none;					
 }
 
 .header{
@@ -61,47 +68,43 @@ h2{
 	z-index: 1;
 	background-image: url("../images/wp2.jpg");
 	background-width: 100%;
-	.us{
-		float: left;
-		display: inline-block;
-		width: 40%;
-		margin-top: 8em;
-		margin-left: 5%;
-		clear: left;
-	}
-
-	.venue{
-		float: right;
-		display: inline-block;
-		width: 40%;
-		margin-top: 8em;
-		margin-right: 5%;
-		ul{
-			li{
-				list-style-type: none;					
-			}
+	.row{		
+		.us{
+			margin-left: 5%;
+			margin-top: 8em;
+			float: left;
+			display: inline-block;
+			width: 40%;
+			clear: left;
 		}
-		clear: right;
+
+		.venue{
+			margin-right: 5%;
+			margin-top: 8em;
+			float: right;
+			display: inline-block;
+			width: 40%;
+			ul{
+				li{
+					list-style-type: none;
+				}
+			}
+			clear: right;
+		}
 	}
 
 	.details{
-		display: inline-block;
-		font-size: 15pt;
-		clear: both;
 		position: relative;
-		left: 43%;
-		margin-top: 2em;
-
+		font-size: 1.5em;
+		clear: both;
+		margin-top: 20em;
 	}
 }
-
-
 
 .save{
 	@include position-center(7em);
 	margin-top:  -7em;
 	@include circle(14em);
-
 	background-color: $white;
 	@include single-box-shadow();
 	z-index: 1;
