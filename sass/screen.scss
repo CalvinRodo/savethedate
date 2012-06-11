@@ -15,6 +15,7 @@ $yellow: #FFE433;
 $white: #FFFFFF;
 //font
 $oleo: 'Oleo Script', cursive;
+$ubuntu: 'Ubuntu', sans-serif;
 
 @mixin position-center($width){
 	position: absolute;
@@ -30,6 +31,9 @@ $oleo: 'Oleo Script', cursive;
 
 }
 
+p{
+	font-family: $ubuntu;
+}
 h1{
 	font-family: $oleo;
 	font-size: 3em;
@@ -49,6 +53,7 @@ h2{
 	@include background-image(linear-gradient( $navyblue, adjust-lightness($navyblue, 15%) 50%, $navyblue));
 	background-color: $navyblue;
 	height: 12em;
+	border-bottom: black, 10px;
 }
 
 .mainbody{
@@ -56,29 +61,42 @@ h2{
 	z-index: 1;
 	background-image: url("../images/wp2.jpg");
 	background-width: 100%;
-}
+	.us{
+		float: left;
+		display: inline-block;
+		width: 40%;
+		margin-top: 8em;
+		margin-left: 5%;
+		clear: left;
+	}
 
-.us{
-	float: left;
-	display: inline-block;
-	width: 40%;
-	margin-top: 8em;
-	margin-left: 5%;
-}
-
-.venue{
-	float: right;
-	display: inline-block;
-	width: 40%;
-	margin-top: 8em;
-	margin-right: 5%;
-	ul{
-		li{
-			list-style-type: none;
-			border-bottom: 1px; 
+	.venue{
+		float: right;
+		display: inline-block;
+		width: 40%;
+		margin-top: 8em;
+		margin-right: 5%;
+		ul{
+			li{
+				list-style-type: none;					
+			}
 		}
+		clear: right;
+	}
+
+	.details{
+		display: inline-block;
+		font-size: 15pt;
+		clear: both;
+		position: relative;
+		left: 43%;
+		margin-top: 2em;
+
 	}
 }
+
+
+
 .save{
 	@include position-center(7em);
 	margin-top:  -7em;
@@ -94,15 +112,13 @@ h2{
 		@include circle(13em);
 		@include background-image( linear-gradient(top, adjust-lightness($lightblue, 25%), $lightblue ));
 	}
+	.savetext{
+		text-align: center;
+		@include position-center(6em);
+		margin-top:4em;
+	}
+
 }
-
-.savetext{
-	text-align: center;
-	@include position-center(6em);
-	margin-top:4em;
-}
-
-
 
 // If you are doing a lot of stylesheet concatenation, it is suggested
 // that you scope your blueprint styles, so that you can better control
