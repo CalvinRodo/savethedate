@@ -2,6 +2,18 @@
 @import "compass/css3/images";
 @import "compass/typography";
 @import "compass/css3/box-shadow";
+
+//colors
+$grey: #A1A1A1;
+$lightblue: #238DAF;
+$navyblue: #00526B;
+$yellow: #FFE433;
+$white: #FFFFFF;
+
+//font
+$oleo: 'Oleo Script', cursive;
+$ubuntu: 'Ubuntu', sans-serif;
+
 /* =============================================================================
    HTML5 Boilerplate CSS: h5bp.com/css
    ========================================================================== */
@@ -9,12 +21,12 @@
 footer, header, nav, section { display: block; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html { font-family: sans-serif; color: #222; }
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { margin: 0; font-size: 1em; line-height: 1; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #00e; }
+a { color: #00e; text-decoration: none;}
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -36,6 +48,10 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 svg:not(:root) { overflow: hidden; }
+p{ font-family: $ubuntu; font-size: 1em; }
+h1{ font-family: $oleo; font-size: 4em; }
+
+section h1{ font-family: $oleo; font-size: 2em; }
 
 
 /* ===== Initializr Styles =====================================================
@@ -49,41 +65,6 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	margin:0 5%;
 }
 
-/* ==============
-    MOBILE: Menu
-   ============== */
-
-nav a{
-	display:block;
-	margin-bottom:10px;
-	padding:15px 0;
-
-	text-align:center;
-	text-decoration:none;
-	font-weight:bold;
-}
-
-nav a:hover{
-	text-decoration:underline;
-}
-
-/* ==============
-    MOBILE: Main
-   ============== */
-
-#main{
-	padding:30px 0;
-}
-
-#main article h1{
-	font-size:2em;
-}
-
-
-#footer-container footer{
-	color:white;
-	padding:20px 0;
-}
 
 /* ===============
     ALL: IE Fixes
@@ -98,15 +79,6 @@ nav a:hover{
 
 
 
-//colors
-$grey: #A1A1A1;
-$lightblue: #238DAF;
-$navyblue: #00526B;
-$yellow: #FFE433;
-$white: #FFFFFF;
-//font
-$oleo: 'Oleo Script', cursive;
-$ubuntu: 'Ubuntu', sans-serif;
 
 @mixin position-center($width){
 	position: absolute;
@@ -122,25 +94,6 @@ $ubuntu: 'Ubuntu', sans-serif;
 
 }
 
-p{
-	font-family: $ubuntu;
-	font-size: 1em;
-}
-
-h1{
-	font-family: $oleo;
-	font-size: 4em;
-}
-
-h2{
-	font-family: $oleo;
-	font-size: 2em;
-	// line-height: 1.25;
-}
-
-a{
-	text-decoration: none;					
-}
 
 header{
 	.h1{
@@ -154,34 +107,32 @@ header{
 	border-bottom: black, 10px;
 }
 
+
 .mainbody{
 	height: 100%;
 	z-index: 1;
 	background-image: url("../images/wp2.jpg");
 	background-width: 100%;
-	.row{		
-		.us{
-			margin-left: 5%;
-			margin-top: 8em;
-			float: left;
-			display: inline-block;
-			width: 40%;
-			clear: left;
-		}
+	.us{
+		margin-left: 5%;
+		margin-top: 8em;
+		display: inline-block;
+		width: 40%;
+		clear: left;
+	}
 
-		.venue{
-			margin-right: 5%;
-			margin-top: 8em;
-			float: right;
-			display: inline-block;
-			width: 40%;
-			ul{
-				li{
-					list-style-type: none;
-				}
+	.venue{
+		margin-right: 5%;
+		margin-top: 8em;
+		float: right;
+		display: inline-block;
+		width: 40%;
+		ul{
+			li{
+				list-style-type: none;
 			}
-			clear: right;
 		}
+		clear: right;
 	}
 
 	.details{
@@ -209,7 +160,7 @@ header{
 	.savetext{
 		text-align: center;
 		@include position-center(6em);
-		margin-top:4em;
+		margin-top:3em;
 	}
 
 }
@@ -222,58 +173,10 @@ header{
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-	
-	nav a{
-		float:left;
-		width:27%;
-		margin:0 1.7%;
-		padding:25px 2%;
-		margin-bottom:0;
-	}
-	
-	nav li:first-child a{ margin-left:0;  }
-	nav li:last-child  a{ margin-right:0; }
-	
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-	nav ul li{
-		display:inline;
-	}	
-	.oldie nav a{
-		margin:0 0.7%;		
-	}
 }
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-	#header-container,
-	#main aside{
-		-webkit-box-shadow:0 5px 10px #aaa;
-		   -moz-box-shadow:0 5px 10px #aaa;
-		        box-shadow:0 5px 10px #aaa;
-	}
-
-/* ============
-    WIDE: Menu
-   ============ */
-	
-	#title{
-		float:left;
-	}
-
-	nav{
-		float:right;
-		width:38%;
-	}
 		
 }
 
@@ -293,8 +196,6 @@ header{
    Non-Semantic Helper Classes
    ========================================================================== */
 
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
-.ir br { display: none; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
