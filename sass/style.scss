@@ -98,12 +98,14 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 header{
 	.h1{
 		display: block;
+		margin-top: 1em;
+		margin-bottom: 2em;
 	}
 	text-align: center;
 	z-index: 1;
 	@include background-image(linear-gradient( $navyblue, adjust-lightness($navyblue, 15%) 50%, $navyblue));
 	background-color: $navyblue;
-	height: 12em;
+	height: 15em;
 	border-bottom: black, 10px;
 }
 
@@ -112,7 +114,6 @@ header{
 	height: 100%;
 	z-index: 1;
 	background-image: url("../images/wp2.jpg");
-	background-width: 100%;
 	.us{
 		margin-left: 5%;
 		margin-top: 8em;
@@ -135,11 +136,11 @@ header{
 		clear: right;
 	}
 
-	.details{
-		position: relative;
+	footer{
+		display: inline-block;
 		font-size: 1.5em;
 		clear: both;
-		margin-top: 20em;
+		position-left: 50%
 	}
 }
 
