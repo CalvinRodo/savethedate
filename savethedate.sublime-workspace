@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"position",
+				"position-center"
+			],
+			[
 				"z",
 				"z	z-index"
 			],
@@ -47,23 +51,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2263,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 21,
+				"buffer_size": 2953,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/screen.scss",
+			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 1947,
+				"buffer_size": 5356,
 				"line_ending": "Windows"
 			}
 		}
@@ -71,12 +67,20 @@
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 264.0,
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Install Package"
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"font",
+				"Preferences: Package Control Settings – Default"
 			],
 			[
 				"enabl",
@@ -89,6 +93,10 @@
 			[
 				"",
 				"BeautifyRuby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"instal",
@@ -119,7 +127,7 @@
 				"Snippet: form_for"
 			]
 		],
-		"width": 400.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -136,7 +144,14 @@
 	},
 	"file_history":
 	[
-		"/C/Users/calvin/Documents/GitHub/savethedate/sass/old.scss",
+		"/home/calvin/Downloads/initializr-verekia-3.0/index.html",
+		"/home/calvin/workspace/savethedate/sass/screen.scss",
+		"/home/calvin/workspace/savethedate/stylesheets/style.css",
+		"/home/calvin/workspace/savethedate/bp.html",
+		"/home/calvin/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/calvin/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/calvin/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/home/calvin/workspace/savethedate/.gitignore",
 		"/home/calvin/workspace/savethedate/.sass-cache/21225c0a81ea17895c75aeba11cf157e225a22e6/_grid.scssc",
 		"/home/calvin/workspace/savethedate/stylesheets/app.css",
 		"/home/calvin/workspace/savethedate/stylesheets/std.css",
@@ -256,14 +271,7 @@
 		"/home/calvin/workspace/untitledhosting/config/initializers/devise.rb",
 		"/home/calvin/workspace/untitledhosting/config/application.rb",
 		"/home/calvin/workspace/untitledhosting/db/seeds.rb",
-		"/home/calvin/workspace/untitledhosting/app/views/devise/registrations/new.html.erb",
-		"/home/calvin/workspace/untitledhosting/app/views/devise/registrations/edit.html.erb",
-		"/home/calvin/workspace/untitledhosting/spec/spec_helper.rb",
-		"/home/calvin/workspace/untitledhosting/config/environments/production.rb",
-		"/home/calvin/workspace/untitledhosting/config/environments/development.rb",
-		"/home/calvin/workspace/untitledhosting/features/support/env.rb",
-		"/home/calvin/workspace/untitledhosting/spec/factory.rb",
-		"/home/calvin/workspace/untitledhosting/spec/support/mongoid.rb"
+		"/home/calvin/workspace/untitledhosting/app/views/devise/registrations/new.html.erb"
 	],
 	"find":
 	{
@@ -281,7 +289,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"%;",
+			"position-center",
+			"#eaeaea",
+			"#f6f6f6",
 			"5em",
 			"text",
 			"new",
@@ -310,11 +320,13 @@
 			") %>"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"$to",
+			"$from",
 			"val",
 			"count",
 			"",
@@ -331,7 +343,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -339,15 +351,28 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2263,
+						"buffer_size": 2953,
 						"regions":
 						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1561,
+										1561
+									]
+								],
+								"scope": "mark"
+							}
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2953,
+								2953
 							]
 						],
 						"settings":
@@ -356,68 +381,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15.0,
+						"translation.y": 476.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": ".gitignore",
+					"file": "sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 21,
+						"buffer_size": 5356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								2329,
+								2329
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/screen.scss",
-					"settings":
-					{
-						"buffer_size": 1947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1014,
-								1014
-							],
-							[
-								1040,
-								1040
-							],
-							[
-								1044,
-								1044
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 764.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -633,6 +623,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 224.0,
+	"side_bar_width": 325.0,
 	"status_bar_visible": false
 }

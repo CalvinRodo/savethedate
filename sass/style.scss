@@ -18,7 +18,7 @@ $ubuntu: 'Ubuntu', sans-serif;
    HTML5 Boilerplate CSS: h5bp.com/css
    ========================================================================== */
 
-footer, header, nav, section { display: block; }
+header { display: block; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html { font-family: sans-serif; color: #222; }
 body { margin: 0; font-size: 1em; line-height: 1; }
@@ -32,38 +32,14 @@ a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
-b, strong { font-weight: bold; }
-blockquote { margin: 1em 40px; }
-q { quotes: none; }
-q:before, q:after { content: ""; content: none; }
-small { font-size: 85%; }
-
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
-
+strong { font-weight: bold; }
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-
-svg:not(:root) { overflow: hidden; }
 p{ font-family: $ubuntu; font-size: 1em; }
-h1{ font-family: $oleo; font-size: 4em; }
-
-section h1{ font-family: $oleo; font-size: 2em; }
-
-
-/* ===== Initializr Styles =====================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
+h1{ font-family: $oleo; }
+section h1{ font-family: $oleo;  }
+ul { margin: 1em 0; padding: 0 0 0 40px; }
 body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
-.wrapper{
-	width:90%;
-	margin:0 5%;
-}
 
 
 /* ===============
@@ -73,12 +49,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 .ie7 #title{ padding-top:20px; }
 
 
-/* ===== Primary Styles ========================================================
-   Author:
-   ========================================================================== */
-
-
-
+// ===== Mixins  ===============================================================
 
 @mixin position-center($width){
 	position: absolute;
@@ -91,106 +62,158 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	width: $radius;
 	height: $radius;
 	@include border-radius( 50% );
-
 }
 
+// ===== Common Styles ========================================================
 
 header{
-	.h1{
-		display: block;
-		margin-top: 1em;
-		margin-bottom: 2em;
-	}
 	text-align: center;
-	z-index: 1;
 	@include background-image(linear-gradient( $navyblue, adjust-lightness($navyblue, 15%) 50%, $navyblue));
-	background-color: $navyblue;
-	height: 15em;
-	border-bottom: black, 10px;
+}
+
+#save{
+	background-color: $white;
+	@include single-box-shadow();
+	z-index: 1;
+	#innercircle{
+		@include background-image( linear-gradient(top, adjust-lightness($lightblue, 25%), $lightblue ));
+	}
+	#savetext{
+		text-align: center;
+	}
 }
 
 
-.mainbody{
+#mainbody{
 	height: 100%;
-	z-index: 1;
 	background-image: url("../images/wp2.jpg");
-	.us{
-		margin-left: 5%;
-		margin-top: 8em;
+	#us{
 		display: inline-block;
-		width: 40%;
-		clear: left;
+		#pic{
+			width: 100%;
+		}
 	}
 
-	.venue{
-		margin-right: 5%;
-		margin-top: 8em;
-		float: right;
+	#venue{
 		display: inline-block;
-		width: 40%;
 		ul{
 			li{
 				list-style-type: none;
 			}
 		}
-		clear: right;
 	}
 
-	footer{
-		display: inline-block;
-		font-size: 1.5em;
-		clear: both;
-		position-left: 50%
-	}
 }
 
-.save{
-	@include position-center(7em);
-	margin-top:  -7em;
-	@include circle(14em);
-	background-color: $white;
-	@include single-box-shadow();
-	z-index: 1;
-	.innercircle{
-		position: relative;
-		top: 0.5em;
-		left: 0.5em;
-		@include circle(13em);
-		@include background-image( linear-gradient(top, adjust-lightness($lightblue, 25%), $lightblue ));
+
+
+// ========Media specific styles===============================================
+
+@media only screen and (min-width: 320px) {
+	.wrapper{
+		margin: 0 3%;
+		width: 94%;
 	}
-	.savetext{
+
+	header{
+		.h1{
+			font-size: 1em;
+		}
+	}
+
+	#mainbody{
 		text-align: center;
-		@include position-center(6em);
-		margin-top:3em;
-	}
+		height: 100%;
+		z-index: 1;
+		background-image: url("../images/wp2.jpg");
 
+		#details{
+			font-size: 1.5em;
+			width: 100%;
+			text-align : center;
+			display:block;
+			padding-bottom: 2em;
+		}
+	}
 }
 
-
-
-/* =============================================================================
-   Media Queries
-   ========================================================================== */
 
 @media only screen and (min-width: 480px) {
+	.wrapper{
+		width:90%;
+		margin:0 5%;
+	}
 
+	section h1{ font-size: 2em; }
+	header{
+		h1{
+			font-size: 3em;
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 2em;
+		}
+		z-index: 1;
+		@include background-image(linear-gradient( $navyblue, adjust-lightness($navyblue, 15%) 50%, $navyblue));
+		height: 15em;
+	}
+
+	#mainbody{
+		height: 100%;
+		z-index: 1;
+		background-image: url("../images/wp2.jpg");
+		 #us{
+		 	margin-top: 7em;
+		 }
+		#details{
+			clear: both;
+			width: 100%;
+			display:block;
+		}
+	}
+
+	#save{
+		@include position-center(7em);
+		margin-top:  -7em;
+		@include circle(14em);
+		#innercircle{
+			position: relative;
+			top: 0.5em;
+			left: 0.5em;
+			@include circle(13em);
+		}
+		#savetext{
+			text-align: center;
+			@include position-center(6em);
+			margin-top:3em;
+		}
+	}
 }
 
-@media only screen and (min-width: 768px) {
+//Galaxy Nexus and up 
+@media only screen and (min-width: 720px) {
+		#mainbody{
+			text-align: left;
+			#us{
+				margin-left: 5%;
+				margin-top: 8em;
+				display: inline-block;
+				width: 40%;
+				clear: left;
+			}
 
-		
+			#venue{
+				margin-right: 5%;
+				margin-top: 8em;
+				float: right;
+				width: 40%;
+				clear: right;
+			}
+	}
+
 }
 
 @media only screen and (min-width: 1140px) {
 
-/* ===============
-    Maximal Width
-   =============== */
-
-	.wrapper{
-		width:1026px; /* 1140px - 10% for margins */
-		margin:0 auto;
-	}
 }
 
 /* =============================================================================
