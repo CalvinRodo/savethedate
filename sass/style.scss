@@ -62,7 +62,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 {
 	width: $radius;
 	height: $radius;
-	@include border-radius( 50% );
+	@include border-radius( 9999px );
 }
 
 // ===== Common Styles ========================================================
