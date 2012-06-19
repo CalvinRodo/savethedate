@@ -63,7 +63,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 5141,
+				"buffer_size": 5144,
 				"line_ending": "Windows"
 			}
 		}
@@ -392,15 +392,15 @@
 					"file": "sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 5141,
+						"buffer_size": 5144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1850,
-								1850
+								1732,
+								1732
 							]
 						],
 						"settings":
