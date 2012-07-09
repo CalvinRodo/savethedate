@@ -138,7 +138,6 @@ header{
 
 		}
 		z-index: 1;
-		@include background-image(linear-gradient( $navyblue, adjust-lightness($navyblue, 15%) 50%, $navyblue));
 		height: 17em;
 	}
 
