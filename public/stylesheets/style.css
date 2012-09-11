@@ -168,7 +168,7 @@ header h1 {
 #mainbody {
   text-align: center;
   height: 100%;
-  background-image: url("../images/wp2.jpg");
+  background-image: url("../images/greyfloral.png");
   z-index: 1;
 }
 /* line 103, ../../sass/style.scss */
@@ -245,13 +245,12 @@ header h1 {
   #mainbody {
     height: 100%;
     z-index: 1;
-    background-image: url("../images/wp2.jpg");
   }
-  /* line 166, ../../sass/style.scss */
+  /* line 165, ../../sass/style.scss */
   #mainbody #us {
     margin-top: 7em;
   }
-  /* line 169, ../../sass/style.scss */
+  /* line 168, ../../sass/style.scss */
   #mainbody #details {
     clear: both;
     width: 100%;
@@ -259,11 +258,11 @@ header h1 {
   }
 }
 @media only screen and (min-width: 720px) {
-  /* line 180, ../../sass/style.scss */
+  /* line 179, ../../sass/style.scss */
   #mainbody {
     text-align: left;
   }
-  /* line 182, ../../sass/style.scss */
+  /* line 181, ../../sass/style.scss */
   #mainbody #us {
     margin-left: 5%;
     margin-top: 8em;
@@ -271,7 +270,7 @@ header h1 {
     width: 40%;
     clear: left;
   }
-  /* line 190, ../../sass/style.scss */
+  /* line 189, ../../sass/style.scss */
   #mainbody #venue {
     margin-right: 5%;
     margin-top: 8em;
@@ -285,7 +284,7 @@ header h1 {
 	header{ height: 14em;}
 } */
 @media only screen and (min-width: 807px) {
-  /* line 205, ../../sass/style.scss */
+  /* line 204, ../../sass/style.scss */
   header {
     height: 14em;
   }
@@ -293,18 +292,18 @@ header h1 {
 /* =============================================================================
    Non-Semantic Helper Classes
    ========================================================================== */
-/* line 213, ../../sass/style.scss */
+/* line 212, ../../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 214, ../../sass/style.scss */
+/* line 213, ../../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 215, ../../sass/style.scss */
+/* line 214, ../../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -313,7 +312,7 @@ header h1 {
    Print Styles
    ========================================================================== */
 @media print {
-  /* line 222, ../../sass/style.scss */
+  /* line 221, ../../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -324,28 +323,28 @@ header h1 {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 223, ../../sass/style.scss */
+  /* line 222, ../../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 224, ../../sass/style.scss */
+  /* line 223, ../../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 225, ../../sass/style.scss */
+  /* line 224, ../../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 226, ../../sass/style.scss */
+  /* line 225, ../../sass/style.scss */
   img {
     page-break-inside: avoid;
   }
 
-  /* line 227, ../../sass/style.scss */
+  /* line 226, ../../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -354,13 +353,13 @@ header h1 {
     margin: 0.5cm;
 }
 
-  /* line 229, ../../sass/style.scss */
+  /* line 228, ../../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 230, ../../sass/style.scss */
+  /* line 229, ../../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }
