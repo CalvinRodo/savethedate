@@ -13,39 +13,54 @@
 		<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" href="stylesheets/style.css">
-  		<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<!-- <link rel="stylesheet" href="stylesheets/style.css"> -->
+  		<!-- <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> -->
 		<link href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700|Ubuntu' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="css/my.css">
 		<script src="js/respond.min.js"></script>
 	</head>
 	<body>
-		<header class="wrapper clearfix">
-			<h1 class="title">Calvin and Amy are getting Married</h1>
-		</header>
-
-		<div id="save">
-			<div id="innercircle">
-				<div id="savetext">
-					<h2>Save the Date</h2>
-					<p><strong>Saturday July 20th 2013</strong></p>
-				</div>
+		<div class="container">
+			<div class="row">
+			<header class="center">
+				<h1 class="title">Calvin and Amy are getting Married</h1>
+			</header>
 			</div>
-		</div>
 
-		<div class="wrapper" id="mainbody">
+			<div class="row" id="save">
+				<img class="center-image small-image" src="images/circlelarge.png">
+			</div>
 
-			<section id="us">
-				<h1>The Happy Couple</h1>
-				<img id="pic" src="./images/newyears320.png" alt="Calvin and Amy, New Years 2011">
-				<p> <strong>Amy Schroeder</strong> and <strong>Calvin Rodo(Vankeulen)</strong></p>
-			</section>
-			
-			<section id="venue">
-				<h1>Wedding Venue and Accomodations</h1>
-				<p>Our wedding is being held at <a href="http://www.atlanticaoakisland.com/en/home/default.aspx"><strong>the Atlantica Oak Island</strong> [link]</a> in Nova Scotia . We'll be staying for at least three nights from Friday the 19th to Sunday the 21st, we would love it if you wanted to hang out with us during that time. Please book under the <strong>Schroeder/Rodo Wedding</strong>.</p>
-				<p>If you book the night before or the night after the wedding you get both nights at a $20.00 discounts.</p>
-				<h1 id="details">Formal invitation to follow</h1> 				
-			</section>
+			<div class="row-fluid" id="mainbody">
+
+				<section class="span6" id="us">
+					<h1>The Happy Couple</h1>
+					<img id="pic" class="img-rounded" src="./images/newyears320.png" alt="Calvin and Amy, New Years 2011">
+					<p> <strong>Amy Schroeder</strong> and <strong>Calvin Rodo(Vankeulen)</strong></p>
+				</section>
+				
+				<section class="span6" id="venue">
+					<h1>Wedding Venue and Accomodations</h1>
+					<p>Our wedding is being held at <a href="http://www.atlanticaoakisland.com/en/home/default.aspx"><strong>the Atlantica Oak Island</strong> [link]</a> in Nova Scotia . We'll be staying for at least three nights from Friday the 19th to Sunday the 21st, we would love it if you wanted to hang out with us during that time. Please book under the <strong>Schroeder/Rodo Wedding</strong>.</p>
+					<p>If you book the night before or the night after the wedding you get both nights at a $20.00 discounts.</p>
+					<address>
+						<strong>Atlantica Oak Island</strong><br>
+						36 Treasure Dr<br>
+						Western Shore, NS<br>
+						B0J 1K0 <br>
+						<abbr title="Phone Toll Free">P:</abbr> 1 800 565 5075
+					</address>
+				</section>
+
+			</div>
+
+			<h1 class="center" id="details">Formal invitation to follow</h1>
+
+
 		</div>
 	</body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </html>

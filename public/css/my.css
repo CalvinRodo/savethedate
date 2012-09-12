@@ -1,0 +1,29 @@
+body { 
+	background-image: url("../images/wp2.jpg");
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+h1{ 
+	font-family: 'Oleo Script', cursive;
+}
+.title{ 
+	font-size: 4em;
+	margin-bottom: 1em;
+}
+.center{
+	text-align: center;
+}
+
+.small-image{
+	width: 250px;
+}
+
+.center-image{
+	position:relative;
+	margin-left: -125px;
+	left:50%;
+}
+.title{
+	font-size: 
+}
